@@ -1,48 +1,35 @@
 <template>
-  <section class="container">
-    <h1 class="h1">Nuxt Bootstrap</h1>
-    <b-button variant='primary'>Primary Button</b-button>
-  </section>
+  <div>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-12">
+            <div class="logo">
+              <nuxt-link to='/'>
+                <img src='~/assets/images/logo.png'>
+                <b>Nissin BlockChain training</b>
+              </nuxt-link>
+            </div>
+            <div class="mobile-menu"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
   }
 }
 </script>
 
-<style>
-.container
-{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.title
-{
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-.subtitle
-{
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-.links
-{
-  padding-top: 15px;
+<style lang='scss'>
+.logo {
+  img {
+    width: 100px;
+  }
 }
 </style>
