@@ -1,3 +1,7 @@
 $primary: #ea1921;
 
 @import '~bootstrap/scss/bootstrap';
+
+.text-black-20 {
+  color: rgba(0, 0, 0, .1) !important;
+}
