@@ -1,31 +1,21 @@
 <template>
   <div>
-    <header class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-12">
-            <div class="logo">
-              <nuxt-link to='/'>
-                <img src='~/assets/images/logo.png'>
-                <b class='ml-1'>NBT</b>
-              </nuxt-link>
-            </div>
-            <div class="mobile-menu"></div>
-          </div>
-          <div class="col-lg-9 col-md-9 col-12 d-flex align-items-center">
-            <div class="header-widget">
-              <div class="single-widget d-flex align-items-center">
-                <span class="fa-stack fa-1x">
-                  <i class="fa fa-phone text-primary fa-stack-1x"></i>
-                  <i class="far fa-circle fa-stack-2x text-black-20"></i>
-                </span>
-                <div class='d-inline-block ml-1'>CallNow<span>031 111 2222</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <h5 class="text-primary my-0 mr-md-auto font-weight-bold">Nissin Cerity Site</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a href="#" class="p-2 text-dark">Login</a>
+      </nav>
+    </div>
+    <div class="main-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Cerity</h1>
+      <p class="lead">
+        Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.
+      </p>
+    </div>
+    <div class="container">
+
+    </div>
+
   </div>
 </template>
 
