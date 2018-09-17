@@ -1,5 +1,10 @@
 @import './_custom';
 @import '~bootstrap/scss/bootstrap';
+@import 'https://fonts.googleapis.com/earlyaccess/mplus1p.css';
+
+* {
+  font-family: "Mplus 1p";
+}
 
 .text-black-20 {
   color: rgba(0, 0, 0, .1) !important;
