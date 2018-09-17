@@ -1,1 +1,10 @@
+@import './_custom';
 @import '~bootstrap/scss/bootstrap';
+
+.jp-font {
+  font-family: "Mplus 1p";
+}
+
+.text-black-20 {
+  color: rgba(0, 0, 0, .1) !important;
+}
