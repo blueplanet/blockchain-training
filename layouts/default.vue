@@ -1,6 +1,33 @@
 <template>
   <div>
-    <nuxt/>
+    <nav class="navbar navbar-expand-md border-bottom shadow-sm">
+      <div class="container">
+        <a href="/" class="navbar-brand"><b>日新研修</b></a>
+        <button class="navbar-toggler" tye="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="navbar-item active">
+              <a href="/" class="nav-link">ホーム</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav text-light">
+            <li class="navbar-item active">
+              <a href="#" class="btn btn-outline-primary">ログイン</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container mt-4">
+      <nuxt/>
+    </main>
+    <footer class="mt-4 pt-4 text-center">
+      <div class="container border-top pt-3">
+        Copyright © 2018 · <a href="#"><b>NisSin 日新株式会社</b></a>
+      </div>
+    </footer>
   </div>
 </template>
 
