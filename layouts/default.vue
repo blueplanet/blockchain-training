@@ -25,7 +25,7 @@
     </main>
     <footer class="mt-4 pt-4 text-center">
       <div class="container border-top pt-3">
-        Copyright © 2018 · <a href="#"><b>NisSin 日新株式会社</b></a>
+        Copyright © 2018 · <a href="http://www.nissinjp.com/" target="_blank"><b>NisSin 日新株式会社</b></a>
       </div>
     </footer>
   </div>
